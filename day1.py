@@ -1,12 +1,16 @@
  # TODO: Create the Programs using input and print the result.
 
-# ! addtion of two numbers:
-
 # * using int() data type to allow for integer numbers:
+
+# * using float() data type to allow for decimal numbers:
+
 # * using input() function to take input from the user: 
 
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+# ! addtion of two numbers:
 
 # * addition of two numbers by using the ( + ) arithmetic operator:
 result = num1 + num2
@@ -15,12 +19,6 @@ print("The sum of", num1, "and", num2, "is:", result)
 
 # ! average of three numbers:
 
-# * using float() data type to allow for decimal numbers:
-# * using input() function to take input from the user: 
-
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-num3 = float(input("Enter the third number: "))
 
 # * average of three numbers by using the ( +, / )  arithmetic operators:
 average = (num1 + num2 + num3) / 3
@@ -76,6 +74,7 @@ square = number ** 2
 print("Square of", number, "is:", square)
 
 # ! cube of a number:
+
 number = float(input("Enter a number: "))
 
 # * cube of a number by using the ( ** )  arithmetic operators:
